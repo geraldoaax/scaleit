@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { ReactNode } from "react";
+import '../styles/styles.css';
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <html lang="en">
