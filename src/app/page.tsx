@@ -1,6 +1,6 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "./home.module.scss";
+import Head from "next/head"
+import Image from "next/image"
+import styles from "./home.module.scss"
 
 export default function Home() {
   return (
@@ -13,8 +13,8 @@ export default function Home() {
         <Image
           src="/images/logo.jpg"
           alt="scaleit logo"
-          width={250}
-          height={250}
+          width={800}
+          height={380}
         />
       </main>
     </>
