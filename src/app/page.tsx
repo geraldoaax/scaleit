@@ -8,13 +8,12 @@ export default function Home() {
       <Head>
         <title>Home | scaleIT</title>
       </Head>
-
       <main className={styles.contentContainer}>
         <Image
           src="/images/logo.jpg"
           alt="scaleit logo"
-          width={250}
-          height={250}
+          width={800}
+          height={380}
         />
       </main>
     </>
